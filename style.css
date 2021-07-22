@@ -40,6 +40,11 @@ a:hover {
     float: right;
 }
 
+/* Empty Space */
+.empty-space {
+    flex-grow: 1;
+}
+
 /* Footer */
 .footer-block {
     display: flex;
