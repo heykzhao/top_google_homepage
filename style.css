@@ -31,13 +31,133 @@ a:hover {
     display: flex;
 }
 /* Header */
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+}
+.header-left-text {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
+.header-left-text-first {
+    margin-left: 15px;
+}
 .header-middle-right-section {
     display: inline-block;
     flex-grow: 1;
     min-width: auto;
+    height: 48px;
 }
 .header-right-section {
     float: right;
+    padding-left: 32px;
+    padding: 0 4px;
+    height: 48px;
+    line-height: normal;
+    flex: 0 0 auto;
+    align-items: center;
+}
+.header-right-links-section {
+    padding-right: 15px;
+    line-height: normal;
+}
+.header-right-links {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #222;
+    display: inline-block;
+    padding-left: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.right-buttons {
+    float: right;
+    position: relative;
+}
+.app-icon-section-wrap {
+    display: inline-block;
+    vertical-align: middle;
+}
+.app-icon-section {
+    display: block;
+    position: relative;
+}
+.app-icon-link {
+    color: #000;
+    opacity: 1;
+    background-position: -64px -29px;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 2px;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+}
+.app-icon-link:hover {
+    background-color: rgb(60,64,67,0.08);
+    border-radius: 50%;
+    z-index: -1;
+}
+.app-icon-svg {
+    color: #5f6368;
+    opacity: 1;
+    fill: currentColor;
+}
+.sign-in-button {
+    font-family: Roboto, Arial, sans-serif;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    padding: 9px 23px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 4px;
+    box-sizing: border-box;
+    min-width: 96px;
+}
+.sign-in-button:hover {
+    text-decoration: none;
+    background-color: #2b7de9;
+}
+
+/* Logo */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+.logo-center-container {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+.logo {
+    max-height: 100%;
+    min-height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+#logo-img {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
 }
 
 /* Empty Space */
