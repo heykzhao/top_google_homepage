@@ -159,7 +159,144 @@ a:hover {
     height: 92px;
     aspect-ratio: auto 272 / 92;
 }
-
+/* Search Entry Section */
+.search-bar-button-container {
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.search-bar-form {
+    display: block;
+    margin-top: 0em;
+}
+.search-bar-form-section {
+    display: block;
+}
+.search-bar-form-div {
+    width: auto;
+    max-width: 584px;
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+.search-entry-section {
+    width: auto;
+    max-width: 584px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+.search-entry-div {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0px 16px;
+    padding-left: 14px;
+}
+.magnifying-glass-icon-section {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+.magnifying-glass-icon-div {
+    margin: auto;
+    display: block;
+}
+.magnifying-glass-icon {
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+.search-entry-input-section {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.search-entry-input-div {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 34px;
+}
+.search-entry-input {
+    background-color: transparent;
+    border: none;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    padding: 0;
+    color: rgba(0,0,0,0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+}
+.microphone-icon-section {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+.microphone-icon-div {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+.microphone-icon {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+.buttons-form-section {
+    height: 70px;
+    padding-top: 18px;
+    top: 53px;
+    z-index: 0;
+    display: block;
+}
+.buttons-form-div {
+    display: block;
+    text-align: center;
+}
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+}
 /* Empty Space */
 .empty-space {
     flex-grow: 1;
